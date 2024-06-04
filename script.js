@@ -99,6 +99,26 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 //POPUP animation 
+
+document.addEventListener("DOMContentLoaded", function() {
+    const revealElements = document.querySelectorAll('.company_animation');
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    revealElements.forEach(element => {
+        observer.observe(element);
+    });
+});
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const revealElements = document.querySelectorAll('.slider_animation');
     const observer = new IntersectionObserver((entries, observer) => {
@@ -130,6 +150,9 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(element);
     });
 });
+
+
+
 
 
 
