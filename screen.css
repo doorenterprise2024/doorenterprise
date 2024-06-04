@@ -1,0 +1,717 @@
+@media(max-width:412px) {
+  
+   
+/* MAIN BANNER */
+img.mainbanner{
+    width: 412px;
+    height: 300px;
+    margin-top: 50px;
+   } 
+
+
+   /* COMPANY LOGO AND TEXT */
+   #company{
+    margin: auto;
+    margin-top: -160px;
+    font-size: 16px;
+    width: 412px ;
+    height: 50px;
+   background-color: #E0BA59;
+   
+}
+
+.logo{
+    position: absolute;
+    width: 40px;
+    margin-left:190px ;
+
+}
+
+.company_text{
+    position: absolute;
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 145px;
+}
+
+
+/* NAVIGATION BAR */
+
+   #navigation{
+     /* border: 1px solid black; */
+     width:412px ;
+     margin: auto;
+     margin-top: -742px;
+
+     
+   }
+
+   .nav_option_config{
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: -3px;
+   }
+  
+
+   .nav_option{ 
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: small;
+    font-family: Cabin;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+   }
+
+  
+
+   #home{
+    margin-left: 1%;
+ }
+
+ #gallery{
+    margin-left: -0.2%;
+ }
+ #service{
+    margin-left: -0.2%;
+    
+ } 
+ #about{
+    margin-left: -0.2%;
+    
+ }
+
+
+#contact{
+      margin-left: -0.2%;
+   }
+   
+   
+   /* BANNER 2 */
+   
+   #consultbanner_config{
+      /* border: 1px solid blue; */
+      width: 412px;
+      height: 250px;
+      margin-top: 300px ;
+      margin-left:-0.8px;
+    
+   }
+
+/* BANNER 2 SECOND TEXT */
+   h1.bannerhead{
+      width: 412px;     
+      /* border: 1px solid green; */
+      text-align: left;
+      font-size:22.4px ;
+   }
+
+/* BANNER 2 SECOND TEXT */
+   #lowertext_config{
+       /* border: 1px solid green; */
+       width: 412px;
+       text-align: center; 
+   }
+
+
+   p.lowertext{
+    color: white;
+    font-family: Cardo;
+    font-size: 9.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+     
+  }
+
+/* BANNER 2 EXPLORE TEXT  */
+
+#exploremore_config{
+   border:1px solid  transparent;
+  }
+
+  .exploremore{
+    width: 412px;
+    background-color: rgb(209,183,160);
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: PT Sans Caption;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right:1% ;
+    padding-left:1% ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    
+}
+
+
+
+/* RECENTLY WORK */
+
+  #rw{
+
+   margin-left: 0px;
+   margin-top:50px ;
+   height: 95px;
+  }   
+
+  .verticalline{
+   width: 5px;
+   height: 80px;
+   margin-left: 50px;
+  }
+
+  .line_config{
+  
+   width: 200px;
+  }
+
+  .related{
+ 
+   margin-left: 45px;
+   margin-top: 45px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   font-size: 20px;   
+  }
+
+  .works{
+ 
+   color: #C18847;
+   margin-left: 75px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+   font-size: 30px; 
+   }
+ 
+   /* SLIDER  */
+
+   #outerlayer{
+    
+      height: 165px;
+      width: 410px;
+      margin-top: -40px;
+   
+    }  
+
+    .slider-container {  
+      position: relative;
+      margin: auto;
+      width: 350px;
+      height: 150px;
+      overflow: hidden;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      margin-left: 40px;
+      padding-top: 1%;
+      padding-bottom: 1% ;
+      padding-left: 1%;
+      padding-right: 1%; 
+      
+    }
+
+    .slider {
+      display: flex;
+      width: 38%;
+      transition: transform 1.0s ease;
+      cursor: grab;
+     
+    }
+
+    .slider-list {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+
+    .slider-item {
+      min-width: 1%;
+      box-sizing: border-box;
+      
+    }
+    
+
+
+  .slider-item img {
+   width: 150px;
+   display: block;
+   border-radius: 10px;
+   
+ }
+
+
+/* ITEMS HOVER ANIMATIONS AND LABELS */
+
+     .item1_hover{
+        border: 1px solid transparent;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        width: 149px ;
+        height: 147px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        text-align: center;
+        
+     }
+     
+     #slider_item1:hover .item1_hover{
+      opacity: 1;
+     }
+     
+      .murals-text{
+         margin-top: 50px;
+         font-size: x-large;
+         font-family:Pacifico  ;
+     } 
+     
+     
+     .item2_hover{
+        border: 1px solid transparent;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        width: 149px ;
+        height: 147px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        text-align: center; 
+     }
+     
+     #slider_item2:hover .item2_hover{
+      opacity: 1;
+     }
+     
+     .wallpaint-text{
+         margin-top: 50px;
+         font-size: x-large;
+         font-family:Pacifico  ;
+     }
+     
+     
+     .item3_hover{
+        border: 1px solid transparent;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        position: absolute;
+        width: 149px ;
+        height: 147px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        text-align: center; 
+     }
+     
+     #slider_item3:hover .item3_hover{
+      opacity: 1;
+     }
+     
+     .flooring-text{
+        margin-top: 50px;
+        font-size: x-large;
+        font-family:Pacifico  ;
+     }
+
+     .item4_hover{
+      border: 1px solid transparent;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      position: absolute;
+      width: 149px ;
+      height: 147px;
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      text-align: center; 
+      }
+  
+  #slider_item4:hover .item4_hover{
+    opacity: 1;
+    }
+  
+  .wardrobe-text{
+       margin-top: 50px;
+       font-size: x-large;
+       font-family:Pacifico  ;
+    }
+     
+    .item5_hover{
+      border: 1px solid transparent;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      position: absolute;
+      width: 149px ;
+      height: 147px;
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+      text-align: center; 
+  }
+  
+  #slider_item5:hover .item5_hover{
+    opacity: 1;
+  }
+  
+  .modularkitchen-text{
+       margin-top: 40px;
+       font-size: x-large;
+       font-family:Pacifico  ;
+  }
+
+
+  .item6_hover{
+   border: 1px solid transparent;
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   position: absolute;
+   width: 149px ;
+   height: 147px;
+   border-radius: 10px;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   pointer-events: none;
+   text-align: center; 
+}
+
+#slider_item6:hover .item6_hover{
+ opacity: 1;
+}
+
+.masterbed-text{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family:Pacifico  ;
+}
+
+
+.item7_hover{
+   border: 1px solid transparent;
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   position: absolute;
+   width: 149px ;
+   height: 147px;
+   border-radius: 10px;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   pointer-events: none;
+   text-align: center; 
+}
+
+#slider_item7:hover .item7_hover{
+ opacity: 1;
+}
+
+.furniture-text{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family:Pacifico  ;
+}
+
+
+.item8_hover{
+   border: 1px solid transparent;
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   position: absolute;
+   width: 149px ;
+   height: 147px;
+   border-radius: 10px;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   pointer-events: none;
+   text-align: center; 
+}
+
+#slider_item8:hover .item8_hover{
+ opacity: 1;
+}
+
+.false-text{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family:Pacifico  ;
+}
+
+.item9_hover{
+   border: 1px solid transparent;
+   background-color: rgba(0,0,0,0.5);
+   color: white;
+   position: absolute;
+   width: 149px ;
+   height: 147px;
+   border-radius: 10px;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+   pointer-events: none;
+   text-align: center; 
+}
+
+#slider_item9:hover .item9_hover{
+ opacity: 1;
+}
+
+.electric-text{
+    margin-top: 50px;
+    font-size: x-large;
+    font-family:Pacifico  ;
+}
+
+/* BANNER 3 */
+
+
+
+#banner3container{
+   background-image: url(../doorenterprise/image/banner3_small.jpg);
+   width: 412px;
+   height: 200px;
+   
+   
+   
+   
+ } 
+
+ #banner3text_config{
+   border: 1px solid transparent;
+   text-align: center;
+   margin: auto;
+   width: 600px;
+   margin-top:70px ;  
+ }
+
+ 
+.banner3text{
+   /* border: 1px solid ; */
+   color: #302f2f;
+   /* text-align: center; */
+   font-size: 20px;
+   font-family: Allerta;
+   margin-left: -195px;
+   margin-top: 56px;
+ 
+ }
+
+ .banner3textsmall_config{
+   border: 1px solid transparent;
+   text-align: center;
+   margin: auto;
+   width: 410px; 
+   margin-top: 30px ;
+ }
+ 
+ .banner3textsmall{
+   color: #302f2f;
+     margin: auto;
+     width: 125px;  
+     font-size: 20px;
+     font-family: Allerta;  
+ }
+ 
+
+ /* TENDER SERVICES */
+ 
+ #servicecontainer{
+   margin: auto;
+   width:410px;
+   height: 150px;
+   text-align: center;
+   margin-top: -80px ; 
+
+   
+ }
+ 
+ .servicecontainer_animation {
+           opacity: 0;
+           transform: scale(0.5);
+           transition: opacity 0.6s ease-out, transform 1s ease-out;
+       }
+       .servicecontainer_animation.visible {
+           opacity: 1;
+           transform: scale(1);
+           transition-delay: 0.5s;
+       }
+ 
+ .store{
+   background-color: white;
+   
+   width: 412px;
+   height: 150px;
+   margin: auto;
+   text-align: center;
+   border-radius: 10px 10px 10px 10px ;
+   box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .service1_config{
+ 
+   width: 100px;
+   height: 100px;
+   
+   
+   
+ 
+ }
+ .img1{
+    margin-top: 30px;
+    width: 40px;
+ }
+ .service1{
+   margin-top: 80px ;
+   font-size: 15px;
+   font-family: Cabin Condensed;
+ }
+ 
+
+ div.service2_config{
+   
+   width: 100px;
+   height: 100px;
+   margin-left: 100px ;
+   margin-top:-102px ;
+
+ 
+ }
+ .img2{
+    margin-top: 30px;
+    width: 40px;
+ }
+ .service2{
+   margin-top: 80px ;
+   font-size: 15px;
+   font-family: Cabin Condensed;
+ }
+ 
+ .service3_config{
+ 
+   width: 100px;
+   height: 100px;
+   margin-left: 200px ;
+   margin-top:-102px ;
+  
+ 
+ 
+ }
+ .img3{
+    margin-top: 30px;
+    width: 40px;
+ }
+ .service3{
+   margin-top: 80px ;
+   font-size: 15px;
+   font-family: Cabin Condensed;
+ }
+ 
+ .service4_config{
+  
+   width: 100px;
+   height: 100px;
+   margin-left: 300px ;
+   margin-top:-102px ;
+   
+ 
+ 
+ }
+ .img4{
+    margin-top: 30px;
+    width: 40px;
+ }
+ .service4{
+   margin-top: 80px ;
+   font-size: 15px;
+   font-family: Cabin Condensed;
+ }
+
+
+ /* Footer Work */
+ .footer_config{
+   border: 1px solid transparent;
+   margin: auto;
+   width: 412px;
+   height: 750px;
+   text-align: center;
+ }
+  footer {
+           background-color: #302F2F;
+           color: white;
+           padding: 40px 0;
+           /* position: fixed; */
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           margin-top: 200px;
+           border-top-left-radius: 10px;
+           border-top-right-radius: 10px;
+       }
+ 
+       .footer-container {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+           max-width: 1200px;
+           margin: 0 auto;
+           padding: 0 20px;
+           color: #E0BA59;
+           
+ 
+           
+       }
+ 
+       .footer-section {
+           flex: 1 1 250px;
+           margin-bottom: 20px;
+       }
+ 
+       .footer-section h2 {
+           font-size: 18px;
+           margin-bottom: 10px;
+           color: #E0BA59;
+ 
+       }
+ 
+       .footer-section ul {
+           list-style: none;
+           padding: 0;
+           color: #E0BA59;
+       }
+ 
+       .footer-section li {
+           margin-bottom: 5px;
+           font-family: Allerta;
+ 
+       }
+ 
+       .footer-section a {
+           color: white;
+           text-decoration: none;
+           color: hsl(43, 69%, 70%);
+           font-family: Allerta;
+ 
+       }
+ 
+       .footer-section a:hover {
+           text-decoration: underline;
+       }
+ 
+       .copywrite-info {
+           text-align: center;
+           margin-top: 20px;
+           
+ 
+       }
+ 
+} 
+     

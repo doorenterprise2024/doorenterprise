@@ -1,0 +1,892 @@
+body{
+ padding: 0px;
+ margin: 0px ;
+ background-image: url(../doorenterprise/image/backimage.png);
+}
+
+/* MAINBANNER */
+div.mainbanner{
+    width: auto;
+    height: 800px;  
+    position: relative;
+    left: -100%; /* Start off-screen to the left */
+    animation: inside 3s forwards; 
+}
+
+@keyframes inside {
+  to {
+      left: 0; /* Slide to the final position */
+  }
+}
+
+
+img.mainbanner{
+    width: 1919px;
+    height: 800px;
+   } 
+  
+
+   /* NAVIGATION BAR*/
+   
+   #navigation{
+       /* border: 1px solid rgb(255, 47, 47); */
+       margin: auto;
+       width: 1918px;
+       height:33px;
+       margin-top: -750px ;
+       
+   }
+
+   .nav_animation {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.nav_animation.visible {
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: 2.5s ;
+}
+
+
+   .nav_option_config{
+    /* border: 1px solid rgb(38, 0, 255); */
+    width: 50%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 25%;   
+     
+   }
+
+
+   .nav_option{
+    
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Cabin;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+   }
+    
+   .nav_option:hover{
+    background-color: #B19F6F;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+     
+   }
+
+#home{
+    margin-left: 1%;
+ }
+
+ #gallery{
+    margin-left: 1%;
+ }
+ #service{
+    margin-left: 1%;
+    
+ } 
+ #about{
+    margin-left: 1%;
+    
+ }
+
+
+#contact{
+      margin-left: 1%;
+   }
+   
+
+/* COMPANY LOGO TEXT  */
+#company{
+    /* border:1px solid black; */
+    margin: auto;
+    margin-top: -155px;
+    font-size: 16px;
+    width: 1918 ;
+    height: 100px;   
+}
+
+.company_animation {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.company_animation.visible {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 1.5s ;
+}
+
+
+.logo{
+    position: absolute;
+    width: 70px;
+    margin-left:180px ;
+
+}
+
+.company_text{
+    position: absolute;
+    font-size: large;
+    margin-top: 60px;
+    margin-left: 126px;
+}
+
+/* BANNER 2 */
+
+#consultbanner_config{
+    width:1919px;
+    height: 600px;
+    margin: auto;
+    border:1px solid  transparent ;    
+    text-align: center;
+    margin-top: 900px;
+    background-image: url(../doorenterprise/image/banner21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.consultbanner_animation {
+  opacity: 0;
+  transform: translateX(500px);
+  transition: opacity 0.6s ease-out, transform 1.5s ease-out;
+}
+.consultbanner_animation.visible {
+  opacity: 1;
+  transform: translateX(0);
+
+} 
+
+#bannerhead_config{
+    border:1px solid transparent ;
+    
+  }
+
+  h1.bannerhead{
+  
+    width: 1919px;
+    color: white;    
+    font-family: Monsieur La Doulaise;
+    font-size: 95px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
+  .bannertext_animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.bannertext_animation.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay:1s;
+}
+  
+
+  #lowertext_config{
+    border:1px solid  transparent;
+  }
+  
+  p.lowertext{
+    color: white;
+    font-family: Cardo;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 1919px;
+  }
+
+
+.lowertext_animation {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.lowertext_animation.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay:2s;
+}
+
+
+  #exploremore_config{
+    border:1px solid  transparent;
+  }
+  .exploremore_animation {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.exploremore_animation.visible {
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: 2.5s ;
+}
+  
+  .exploremore{
+    width: 1919px;
+    background-color: rgb(209,183,160);
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: PT Sans Caption;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    padding-right:0.3% ;
+    padding-left:0.3% ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+}
+
+.exploremore:hover{
+    background-color: #1D1D1D;
+    border: 1px solid rgb(209,183,160);
+    transition: 0.5s;
+    
+  }
+
+
+  /* RECENTLY WORK CSS */
+
+  #rw{
+    margin:auto;
+    margin-left: 400px ;
+    margin-top: 200px;
+    width: 900px; 
+    height:auto; 
+    border: 1px solid transparent; 
+    
+  }
+
+
+.animation_rw {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.animation_rw.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+  
+
+  .verticalline{
+
+    width: 10px; /* Width of the vertical line */
+    height: 100px; /* Height of the vertical line */
+    background-color: #C18847; /* Color of the vertical line */
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
+      
+      
+    }
+
+
+    .related{
+      margin-left: 5px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      font-size: 150%; 
+      font-family: Poppins;
+     }
+     .line_config{
+       border: 1px solid transparent;
+       width: 100px;
+       margin-left: 30px;
+       margin-top: -130.5px ;
+     }
+
+     .works{
+
+      color: #C18847;
+      margin-left: 30.5px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      font-size: 280%; 
+      font-family: Allerta;
+      }
+
+
+
+     /* SLIDER CSS */
+#outerlayer{
+  border: 1px solid  transparent;
+  height: 342px;
+  width: 1919px;
+  margin-top: 10px;
+}  
+
+.slider_animation {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+}
+.slider_animation.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
+
+.slider-container {  
+  position: relative;
+  margin: auto;
+  width: 925px;
+  height: 300px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-left: 25.5%;
+  padding-top: 1%;
+  padding-bottom: 1% ;
+  padding-left: 1%;
+  padding-right: 1%; 
+  
+  
+}
+
+.slider {
+  display: flex;
+  width: 25.5%;
+  transition: transform 1.0s ease;
+  cursor: grab;
+ 
+}
+
+.slider-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+ 
+
+  
+  
+}
+
+.slider-item {
+  min-width: 1%;
+  box-sizing: border-box;
+  
+}
+
+.slider-item img {
+  width: 300px;
+  display: block;
+  border-radius: 10px;
+  
+}
+
+/* SLIDER BUTTON CONFIG */
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+}
+
+button.prev {
+  left: 10px;
+
+}
+
+button.next {
+  right: 3px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* ITEMS HOVER ANIMATIONS AND LABELS */
+
+.item1_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center;
+    
+}
+
+#slider_item1:hover .item1_hover{
+  opacity: 1;
+}
+
+.murals-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+
+
+
+
+.item2_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item2:hover .item2_hover{
+  opacity: 1;
+}
+
+.wallpaint-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+
+.item3_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item3:hover .item3_hover{
+  opacity: 1;
+}
+
+.flooring-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+
+.item4_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item4:hover .item4_hover{
+  opacity: 1;
+}
+
+.wardrobe-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+.item5_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item5:hover .item5_hover{
+  opacity: 1;
+}
+
+.modularkitchen-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+.item6_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item6:hover .item6_hover{
+  opacity: 1;
+}
+
+.masterbed-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+
+
+.item7_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item7:hover .item7_hover{
+  opacity: 1;
+}
+
+.furniture-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+
+.item8_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item8:hover .item8_hover{
+  opacity: 1;
+}
+
+.false-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+.item9_hover{
+    border: 1px solid transparent;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 299px ;
+    height: 298px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center; 
+}
+
+#slider_item9:hover .item9_hover{
+  opacity: 1;
+}
+
+.electric-text{
+     margin-top: 125px;
+     font-size: xx-large;
+     font-family:Pacifico  ;
+}
+
+/* WHY CHOOSE US CSS */
+#banner3container{
+  width:1919px;
+  height: 440.9px;
+  margin: auto;
+  border:1px solid transparent;    
+  text-align: center;
+  margin-top: 50px;
+  background-image: url(../doorenterprise/image/banner3.jpg);
+  background-repeat: no-repeat;
+
+}
+
+.banner3container_animation {
+            opacity: 0;
+            transition: opacity 1s ease-out; /* Adjust the duration as needed */
+        }
+        .banner3container_animation.visible {
+            opacity: 1;
+        }
+
+#banner3text_config{
+  border: 1px solid transparent;
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  margin-top:70px ;  
+}
+
+.banner3text{
+      border: 1px solid transparent;
+      color: #302f2f;
+      /* text-align: center; */
+      font-size: 40px;
+      font-family: Allerta;
+
+}
+
+
+
+.banner3textsmall_config{
+  border: 1px solid transparent;
+  text-align: center;
+  margin: auto;
+  width: 600px; 
+  margin-top: 5px ;
+}
+
+.banner3textsmall{
+  color: #302f2f;
+    margin: auto;
+    width: 125px;  
+    font-size: 20px;
+    font-family: Allerta;
+   
+}
+
+
+/* TENDER SERVICE CSS */
+
+#servicecontainer{
+  margin: auto;
+  width:1919px;
+  height: 300px;
+  text-align: center;
+  margin-top: -200px ; 
+  
+}
+
+.servicecontainer_animation {
+          opacity: 0;
+          transform: scale(0.5);
+          transition: opacity 0.6s ease-out, transform 1s ease-out;
+      }
+      .servicecontainer_animation.visible {
+          opacity: 1;
+          transform: scale(1);
+          transition-delay: 0.5s;
+      }
+
+.store{
+  background-color: white;
+  /* border: 1px solid transparent; */
+  width: 1205px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px ;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.5);
+}
+
+.service1_config{
+
+  width: 300px;
+  height: 300px;
+  
+
+}
+.img1{
+   margin-top: 70px;
+   width: 95px;
+}
+.service1{
+  margin-top: 80px ;
+  font-size: 25px;
+  font-family: Cabin Condensed;
+}
+
+.service2_config{
+  
+  width: 300px;
+  height: 300px;
+  margin-left: 301px ;
+  margin-top:-302px ;
+ 
+
+}
+.img2{
+   margin-top: 70px;
+   width: 95px;
+}
+.service2{
+  margin-top: 80px ;
+  font-size: 25px;
+  font-family: Cabin Condensed;
+}
+
+.service3_config{
+
+  width: 300px;
+  height: 300px;
+  margin-left: 602px ;
+  margin-top:-302px ;
+
+
+}
+.img3{
+   margin-top: 70px;
+   width: 95px;
+}
+.service3{
+  margin-top: 80px ;
+  font-size: 25px;
+  font-family: Cabin Condensed;
+}
+
+.service4_config{
+ 
+  width: 300px;
+  height: 300px;
+  margin-left: 903px ;
+  margin-top:-302px ;
+
+
+}
+.img4{
+   margin-top: 70px;
+   width: 95px;
+}
+.service4{
+  margin-top: 80px ;
+  font-size: 25px;
+  font-family: Cabin Condensed;
+}
+
+
+/* Footer */
+
+.footer_config{
+  border: 1px solid transparent;
+  margin: auto;
+  width: 1919px;
+  height: 250px;
+  text-align: center;
+}
+ footer {
+          background-color: #302F2F;
+          color: white;
+          padding: 40px 0;
+          /* position: fixed; */
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          margin-top: 200px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+      }
+
+      .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 20px;
+          color: #E0BA59;
+          
+
+          
+      }
+
+      .footer-section {
+          flex: 1 1 250px;
+          margin-bottom: 20px;
+      }
+
+      .footer-section h2 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          color: #E0BA59;
+
+      }
+
+      .footer-section ul {
+          list-style: none;
+          padding: 0;
+          color: #E0BA59;
+      }
+
+      .footer-section li {
+          margin-bottom: 5px;
+          font-family: Allerta;
+
+      }
+
+      .footer-section a {
+          color: white;
+          text-decoration: none;
+          color: hsl(43, 69%, 70%);
+          font-family: Allerta;
+
+      }
+
+      .footer-section a:hover {
+          text-decoration: underline;
+      }
+
+      .copywrite-info {
+          text-align: center;
+          margin-top: 20px;
+          
+
+      }
